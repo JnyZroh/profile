@@ -1,0 +1,94 @@
+/* black bean: 47, 16, 0
+seal brown: 98, 27, 0
+brown: 148, 86, 0
+burnt orange: 199, 80, 0 */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap');
+
+body {
+  background-color: rgba(241, 218, 191, 0.71);
+  color:rgb(47, 26, 0);
+  font-family: 'Lato', sans-serif;
+  line-height: 125%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  /* center the page content using left & right margins to prevent it taking 100% of the window (which would be ugly). */
+  margin: 0 30px;
+}
+div.card-white {
+  /* background, border, border-radius and box-shadow */
+  margin: 20px auto;
+  background-color: rgb(245, 245, 245);
+  /* background-color: rgba(241, 218, 191, 0.61); */
+  border:0.5px solid rgb(47, 26, 0);
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(241, 218, 191, 0.61);
+  padding: 20px;
+  width: 500px;
+  /* height: auto; */
+}
+
+.text-align {
+  text-align: center;
+}
+
+/* Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers */
+h1, h2 {
+  color: rgb(105, 27, 0);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  margin: 15px 15px 15px 35px;
+}
+img.profile-circle {
+  width: 100px;
+}
+
+/* Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover. */
+.btn-blue {
+  text-decoration: none;
+  border: 1px solid rgb(105, 27, 0);
+  border-radius: 4px;
+  background-color: rgba(105, 26, 0, 0.6);
+  color: rgb(241, 218, 191);;
+  padding: 10px 20px;
+  margin: 25px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(105, 27, 0);
+}
+
+.list-inline > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
