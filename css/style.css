@@ -10,13 +10,40 @@ burnt orange: 199, 80, 0 */
   margin: 0;
 }
 body {
-  background-color: rgba(188, 152, 116, 0.06);
+  /* background-color: rgba(188, 152, 116, 0.06); */
+  background-color: #F6F1EB;
   color:rgb(47, 26, 0);
   font-family: 'Lato', sans-serif;
   line-height: 125%;
   margin: 0;
 }
 
+.profileImage {
+  height:300px;
+  border-radius: 50%;
+}
+.profileImageDiv {
+  justify-content: end;
+}
+
+.profileBannerOuterDiv {
+  position: relative;
+  height: auto;
+  padding:20px;
+  min-width:500px
+}
+
+.contentOptionsInnerDiv {
+  /* border: 1px solid black; */
+  height: 300px;
+  min-width: 200px;
+  width: 40%;
+}
+
+.expSections {
+  width: 250px;
+  height: 200px;
+}
 .col-centered{
   float: none;
   margin: 0 auto;
@@ -42,6 +69,7 @@ body {
   border-bottom: 1px solid blue;
   border-top: 1px solid blue;
 }
+
 
 .card-identity {
   border: 1px solid blue;
@@ -73,6 +101,43 @@ body {
   /* For a screen < 540px, this CSS will be read */
   .container {
     min-width: 300px;
+  }
+  .profileImage {
+    height:200px;
+  }
+  .contentOptionsList {
+    width: 300px;
+  }
+
+  /* .contentOptionsDiv,
+  .profileImageDiv, */
+  .profileBannerDiv {
+    flex-direction: column;
+    width:250px;
+    margin: 0 auto;
+  }
+  .profileImageDiv {
+    justify-content: center;
+  }
+  .profileBannerOuterDiv {
+    min-width:300px;
+  }
+  .contentOptionsDiv {
+    justify-content: center;
+  }
+  .contentOptionsInnerDiv {
+    height: auto;
+    text-align: center;
+  }
+
+  .experience {
+    flex-direction: column;
+  }
+  .experience h3 {
+    font-size: 16px;
+  }
+  .questions {
+    display: none;
   }
 }
 
