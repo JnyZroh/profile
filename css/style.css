@@ -1,259 +1,153 @@
-/* black bean: 47, 16, 0
-seal brown: 98, 27, 0
-brown: 148, 86, 0
-burnt orange: 199, 80, 0 */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap');
-@import url("components/tabs.css");
+@import url("components/list.css");
 @import url("components/banner.css");
+@import url("components/card.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
 
+/* GENERAL STYLING */
 * {
   margin: 0;
 }
 
-
 body {
-  /* background-color: rgba(188, 152, 116, 0.06); */
+  margin: 0;
   background-color: #F6F1EB;
   color:rgb(47, 26, 0);
-  font-family: 'Lato', sans-serif;
-  line-height: 125%;
-  margin: 0;
   font-family: 'Katibeh', cursive;
+  line-height: 125%;
 }
 
-.profileImage {
-  height:300px;
-  border-radius: 50%;
-}
-.profileImageDiv {
-  justify-content: center;
-}
-
-#profileLinksList a {
-  color: #DFAE3E;
-}
-
-#profileLinksList a:hover {
-  color: white;
-}
-
-.profileBannerOuterDiv {
-  position: relative;
-  height: auto;
-  padding:20px;
-  min-width:500px
-}
-
-.contentOptionsInnerDiv {
+h2 {
+  font-size: 20px;
   /* border: 1px solid black; */
-  height: 300px;
-  min-width: 200px;
-  width: 40%;
+  /* padding: 8px; */
+  /* padding-top: 0; */
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .4) ;
 }
 
-.infoSection {
-  /* display: block; */
-  color: black;
-}
+/* BANNER SECTION */
+/* Component stylesheet: banner.css */
 
-button {
-  border-color: rgba(223, 175, 62, .40);
-  background-color: rgba(223, 175, 62, 0);
-}
+/* PROJECTS SECTION */
+/* Component stylesheet: card.css */
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.projectCards::-webkit-scrollbar {
-  display: none;
-}
+/* BLOG POSTS */
+/* Component stylesheet: list.css */
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.projectCards {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
-#shortBio span {
-  /* color: #9ce4e4; */
-  color: #dcbafd;
-}
-.expSections {
-  width: 250px;
-  height: 200px;
-}
-.col-centered{
-  float: none;
-  margin: 0 auto;
-}
-
-.banner {
-  width: 100vw;
-  height: 60vh;
-  margin: 0px;
-  position: relative;
-}
-
-.banner img {
-  border-radius: 20px 0 0 20px;
-  width: auto;
-  height: 60vh ;
-}
-
-.innerBanner {
-  border-radius: 0 20px 20px 0;
-  background-color: #FFFFFF;
-  border-right: 1px solid blue;
-  border-bottom: 1px solid blue;
-  border-top: 1px solid blue;
-}
-
-
-.card-identity {
-  border: 1px solid blue;
-  width: 30%;
-  min-width: 150px;
-  border-radius: 10px;
-  align-items: center;
-
-}
-.card-keyword {
-  width: 70%;
-}
+/* media queries */
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .container {
+  /* .container {
     width: 700px;
-  }
+  } */
 }
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
-  .container {
+  /* .container {
     min-width: 500px;
-  }
+  } */
 }
 
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    min-width: 300px;
+
+  /* BANNER SECTION */
+  .profileBannerOuterDiv {
+    min-width:250px;
   }
-  .profileImage {
-    height:200px;
-    margin: 10px;
+
+  img.profile {
+    height:220px;
+    /* border-radius: 50%; */
   }
+
+  #profileLinksList {
+    height: 65%;
+    padding:10px 15px;
+    margin: 20px;
+  }
+
+  /* moves the photo link; stops colliding with page links */
+  #unsplash {
+    bottom: -50px;
+  }
+
+  /* PROJECTS SECTION */
+/*
+  .projectCards {
+    justify-content: start;
+  } */
+
+  /* width */
+  .projectCards::-webkit-scrollbar {
+    height: 10px;
+    display: unset;
+  }
+
+  /* Track */
+  .projectCards::-webkit-scrollbar-track {
+    /* display: none;*/
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: hsla(42, 72%, 56%, 0.6);
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    /* background: #555; */
+    background: hsla(42, 72%, 56%, 1);
+  }
+
+
+  /* BLOG SECTION */
+
   .contentOptionsList {
     width: 300px;
   }
 
-  /* .contentOptionsDiv,
-  .profileImageDiv, */
-  .profileBannerDiv {
+  .contentOptionsList li {
     flex-direction: column;
-    width:250px;
-    margin: 0 auto;
-  }
-  .profileImageDiv {
-    justify-content: center;
-  }
-  .profileBannerOuterDiv {
-    min-width:300px;
-  }
-  .contentOptionsDiv {
-    justify-content: center;
-  }
-  .contentOptionsInnerDiv {
-    height: auto;
-    text-align: center;
+    margin-bottom: 8px;
   }
 
-  /* .experience {
-    flex-direction: column;
-  } */
-  .experience h3 {
+  .title.label,
+  .title {
+  justify-content: space-between;
+  padding-right: 16px;
+  }
+
+  .title.label a,
+  .title a {
+    font-size: 20px;
+    width: 150px;
+  }
+
+  .title.label p,
+  .title p {
     font-size: 16px;
+    width: 30px;
   }
-  .questions {
-    display: none;
+
+  .summary.label,
+  .summary {
+    width: 250px;
   }
-}
 
-.container {
-  /* center the page content using left & right margins to prevent it taking 100% of the window (which would be ugly). */
-  margin: 0 30px;
-}
-div.card-white {
-  /* background, border, border-radius and box-shadow */
-  margin: 20px auto;
-  /* background-color: rgb(245, 245, 245); */
-  /* background-color: rgba(241, 218, 191, 0.61); */
-  border:0.5px solid rgb(47, 26, 0);
-  border-radius: 10px;
-  box-shadow: 10px 5px 5px rgba(241, 218, 191, 0.61);
-  padding: 20px;
-  width: 600px;
-  /* height: auto; */
-}
+  .summary.label p,
+  .summary p {
+    font-size: 16px;
+    padding: 0;
+    text-align: justify;
+  }
 
-.text-align {
-  text-align: center;
-}
-
-/* Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
-Choose harmonious font-size and line-height for headers */
-h1, h2 {
-  color: rgb(105, 27, 0);
-  font-family: 'Josefin Sans', sans-serif;
-}
-h1 {
-  margin: 10px;
-}
-h2 {
-  font-size: 20px;
-}
-
-p {
-  /* margin: 15px 15px 15px 35px; */
-}
-/* img.profile-circle {
-  width: 100px;
-} */
-
-/* Change the color & text-decoration of all the links
-Add hover effects to links using the pseudo-class a:hover. */
-.btn-blue {
-  text-decoration: none;
-  border: 1px solid rgb(105, 27, 0);
-  border-radius: 4px;
-  background-color: rgba(105, 26, 0, 0.6);
-  color: rgb(241, 218, 191);;
-  padding: 10px 20px;
-  margin: 25px;
-}
-
-.btn-blue:hover {
-  background-color: rgb(105, 27, 0);
-}
-
-.list-column > li {
-  list-style-type: none;
-  display: block;
-  /* flex-direction: column; */
-  /* display: inline-block; */
-  padding: 20px 0;
-
-}
-.list-inline > li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0px 15px;
-}
-
-img.featuredImage {
-  height: 200px;
-}
-.brown {
-  color: brown
 }

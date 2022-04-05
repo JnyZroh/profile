@@ -1,0 +1,74 @@
+
+.tabs-underlined .tab-underlined {
+  color: black;
+  padding: 0 8px;
+  margin: 0 8px;
+  opacity: .4;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+.list-inline > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+
+#blogs {
+  margin: 0 auto;
+  padding:40px 0;
+}
+
+#blogList {
+  border: 2px solid rgba(188, 152, 116, 0.12);
+  border-radius: 20px;
+}
+
+
+.title.label a {
+  font-size: 24px;
+  width: 220px;
+}
+
+.title.label p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:16px;
+  width: 40px;
+  text-align: center;
+}
+
+.summary.label {
+  display: flex;
+  align-items: center;
+  width: 520px;
+}
+
+.summary.label p {
+  font-size: 20px;
+}
+
+.title a {
+  font-size: 24px;
+  width: 220px;
+}
+
+.title p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  width: 40px;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  width: 520px;
+}
+
+.summary p {
+  font-size: 20px;
+}
