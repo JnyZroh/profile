@@ -6,9 +6,13 @@ burnt orange: 199, 80, 0 */
 @import url("components/tabs.css");
 @import url("components/banner.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
 * {
   margin: 0;
 }
+
+
 body {
   /* background-color: rgba(188, 152, 116, 0.06); */
   background-color: #F6F1EB;
@@ -16,6 +20,7 @@ body {
   font-family: 'Lato', sans-serif;
   line-height: 125%;
   margin: 0;
+  font-family: 'Katibeh', cursive;
 }
 
 .profileImage {
@@ -23,7 +28,15 @@ body {
   border-radius: 50%;
 }
 .profileImageDiv {
-  justify-content: end;
+  justify-content: center;
+}
+
+#profileLinksList a {
+  color: #DFAE3E;
+}
+
+#profileLinksList a:hover {
+  color: white;
 }
 
 .profileBannerOuterDiv {
@@ -40,6 +53,31 @@ body {
   width: 40%;
 }
 
+.infoSection {
+  /* display: block; */
+  color: black;
+}
+
+button {
+  border-color: rgba(223, 175, 62, .40);
+  background-color: rgba(223, 175, 62, 0);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.projectCards::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.projectCards {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#shortBio span {
+  /* color: #9ce4e4; */
+  color: #dcbafd;
+}
 .expSections {
   width: 250px;
   height: 200px;
@@ -104,6 +142,7 @@ body {
   }
   .profileImage {
     height:200px;
+    margin: 10px;
   }
   .contentOptionsList {
     width: 300px;
@@ -130,9 +169,9 @@ body {
     text-align: center;
   }
 
-  .experience {
+  /* .experience {
     flex-direction: column;
-  }
+  } */
   .experience h3 {
     font-size: 16px;
   }
@@ -176,7 +215,7 @@ h2 {
 }
 
 p {
-  margin: 15px 15px 15px 35px;
+  /* margin: 15px 15px 15px 35px; */
 }
 /* img.profile-circle {
   width: 100px;
@@ -198,12 +237,23 @@ Add hover effects to links using the pseudo-class a:hover. */
   background-color: rgb(105, 27, 0);
 }
 
+.list-column > li {
+  list-style-type: none;
+  display: block;
+  /* flex-direction: column; */
+  /* display: inline-block; */
+  padding: 20px 0;
+
+}
 .list-inline > li {
   list-style-type: none;
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
 
+img.featuredImage {
+  height: 200px;
+}
 .brown {
   color: brown
 }

@@ -14,54 +14,304 @@
 
     <div class="w-100 h-100">
 
-      <div class="bannerImage" style="height: 120vh; width:100vw; background-image: url(./images/wall-mona-eendra-unsplash.jpg); background-position: bottom;">
+<!-- BANNER SECTION -->
 
-        <div class="d-flex align-items-center" style="width:100vw; height: 100vh;">
+      <div class="bannerImage" style="position: relative; height: 100vh; background-image: url(./images/wall-mona-eendra-unsplash.jpg); background-position: bottom;">
+        <div class="d-flex align-items-center" style="width:auto; height: 100vh;">
 
-          <div class="container-fluid profileBannerOuterDiv">
+          <div class="container-fluid profileBannerOuterDiv p-0">
             <div class="row no-gutters d-flex align-items-center profileBannerDiv">
-
-              <div class="col-6 p-3 d-flex profileImageDiv">
+              <div class="col-4 p-3 d-flex profileImageDiv" style="align-items: center; margin: 0 auto;">
                 <img class="profileImage" src="images/IMG-Janaya-January2022.jpg" alt="image of Janaya">
+                <ul id="profileLinksList" style="list-style-type: none; height: 65%; padding:15px 20px; margin: 25px; background-color: rgba(0, 0, 0, 0.4); border-radius: 20px;">
+                  <li style="padding: 15px 0"><a href="https://www.linkedin.com/in/janayagripper/" target="_blank"><i class="fab fa-2xl fa-linkedin"></i></a></li>
+                  <li style="padding: 15px 0"><a href="https://github.com/JnyZroh" target="_blank"><i class="fab fa-2xl fa-github-square"></i></a></li>
+                  <li style="padding: 15px 0"><a href="https://dev.to/jnyzroh" target="_blank"><i class="fab fa-2xl fa-brands fa-dev"></i></a></li>
+                </ul>
               </div>
+            </div>
 
-              <div class="col-6 p-3 d-flex contentOptionsDiv" >
-                <div class="d-flex justify-content-center align-items-center contentOptionsInnerDiv">
-                  <ul class="m-0 p-3" style="list-style-type: none; background-color: rgba(0, 0, 0, 0.4); border-radius: 20px;">
-                    <li style=" padding:10px;"><a style="text-decoration: none; font-size:20px; color:#DFAE3E" href="#profileLinks" target="_blank">Experience</a></li>
-                    <li style=" padding:10px;"><a style="text-decoration: none; font-size:20px; color:#DFAE3E" href="#projectList" target="_blank">Projects</a></li>
-                    <li style=" padding:10px;"><a style="text-decoration: none; font-size:20px; color:#DFAE3E" href="#info-box" target="_blank">More About Me</a></li>
-                  </ul>
-                </div>
+            <div id="profileLinks" class="d-flex justify-content-center align-items-center" style="width:100%; height: 20vh; position: relative">
+              <ul class="list-inline d-flex justify-c ontent-center align-items-center m-0 p-0" style="position: absolute; left: 5%; bottom: 10px; width: auto;">
+                <li ><a style="text-decoration: none; font-size:32px; color:white; text-shadow: 2px 2px rgba(0, 0, 0, 0.4);" href="#projectList" target="_blank">Projects</a></li>
+                <!-- <li ><a style="text-decoration: none; font-size:32px; color:white; text-shadow: 2px 2px rgba(0, 0, 0, 0.4);" href="#profileLinks" target="_blank">Bio</a></li> -->
+                <li ><a style="text-decoration: none; font-size:32px; color:white; text-shadow: 2px 2px rgba(0, 0, 0, 0.4);" href="#profileLinks" target="_blank">Blog Posts</a></li>
+              </ul>
+              <div style="position: absolute; right: 5%; bottom: 10px; width: auto;">
+                <ul class="list-inline d-flex justify-content-center align-items-center m-0 px-2" style="background-color: rgba(0, 0, 0, 0.4); border-radius: 5px;">
+                  <li class="px-1"><a style="color:#DFAE3E; font-size: 20px;" href="https://unsplash.com/photos/vC8wj_Kphak" target="_blank"><i class="fa-brands fa-unsplash"></i> Photo by Mona Eendra</a></li>
+                </ul>
               </div>
-
             </div>
           </div>
 
         </div>
 
-        <div id="profileLinks" class="d-flex justify-content-center align-items-center" style="width:100vw; height: 20vh; position: relative">
-            <ul class="list-inline d-flex justify-c ontent-center align-items-center m-0 p-3" style="background-color: rgba(0, 0, 0, 0.4); border-radius: 20px;">
-              <li class="px-2 mx-2"><a style="color:#DFAE3E" href="https://www.linkedin.com/in/janayagripper/" target="_blank"><i class="fab fa-2xl fa-linkedin"></i></a></li>
-              <li class="px-2 mx-2"><a style="color:#DFAE3E" href="https://github.com/JnyZroh" target="_blank"><i class="fab fa-2xl fa-github-square"></i></a></li>
-              <li class="px-2 mx-2 brown"><a style="color:#DFAE3E" href="https://dev.to/jnyzroh" target="_blank"><i class="fab fa-2xl fa-brands fa-dev"></i></a></li>
-            </ul>
-            <div style="position: absolute; right: 5%; bottom: 10px; width: auto;">
-              <ul class="list-inline d-flex justify-content-center align-items-center m-0 px-2" style="background-color: rgba(0, 0, 0, 0.4); border-radius: 5px;">
-                <li class="px-1"><a style="color:#DFAE3E; font-size: 12px;" href="https://unsplash.com/photos/vC8wj_Kphak" target="_blank"><i class="fa-brands fa-unsplash"></i> Photo by Mona Eendra</a></li>
-              </ul>
-            </div>
-        </div>
-          <!-- <h1 id="hiAnimation" style="height: 380px; width: 255px; position: absolute; top: 18%; left: 36%">Hi!, I'm Janaya</h1> -->
-          <!-- <script src="app.js"></script> -->
-
-        </div>
       </div>
     </div>
 
-    <div class="d-flex justify-content-center p-3 experience" style="height: 80vh; width: 100vw; background-color: #DFAE3E; position:relative">
+    <!-- PROJECTS SECTION -->
+    <!-- Add link to view resume -->
 
-      <div class="col-3 m-4 p-3">
+    <div style="padding:40px 0; height: auto; position:relative; background-image: linear-gradient(rgba(223, 175, 62, 1.0), rgba(223, 175, 62, 0.8), rgba(223, 175, 62, 0.6), rgba(223, 175, 62, 0.45),rgba(223, 175, 62, 0.1), rgba(223, 175, 62, 0.01));">
+
+      <div class="row" style="margin: 0 auto;">
+
+        <div class="col-10 slidingCards" style="margin: 0 auto; border-radius: 20px; min-width: 150px; display: flex; align-items: center; justify-content: center; text-align: center;">
+          <h2 style="color:white">Full Stack Projects</h2>
+        </div>
+        <div class="col-11 d-flex  justify-content-center projectCards p-0" style="overflow:scroll; margin: 0 auto;">
+
+        <!-- Find My Pet -->
+        <div style="margin: 15px;">
+          <div class="slidingCards" style="position: relative; padding: 0;height: 250px; width: auto; min-width: 300px;">
+            <h4 style="font-size:24px">Find My Pet</h4>
+            <div style="position: absolute; top: 0; right: 0;">
+              <!-- <button id="toggle" style="border-color: rgba(223, 175, 62, .40); background-color: rgba(223, 175, 62, 0);">Info</button> -->
+              <!-- <button ><i class="fa-solid fa-code"></i></button> -->
+              <button ><a href="http://www.findingmypet.xyz/" style="color:rgba(0, 0, 0, .4)"><i class="fa-solid fa-eye"></i></a></button>
+            </div>
+            <div style="text-align: center; height: 220px;">
+              <img src="./images/findmypet-edited.png" alt="" style="width: auto; height: 220px;">
+            </div>
+          </div>
+          <div id="content">
+            <div style="background-color: rgba(0, 0, 0, .4); width: 296px; height: auto; border-radius: 0 0 5px 5px; margin-top: 6px;">
+              <p id="test" style="font-size: 20px; padding: 8px; color: white;">Designed to mobilize a pet-loving community to reunite owners with their lost pets.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- WATERBNB -->
+        <div style="margin: 15px;">
+          <div class="slidingCards" style="position: relative; padding: 0; height: 250px; width: 300px; min-width: 300px;">
+            <h4 style="font-size:24px">Water Bnb</h4>
+            <div style="position: absolute; top: 0; right: 0;">
+              <!-- <button id="toggle" style="border-color: rgba(223, 175, 62, .40); background-color: rgba(223, 175, 62, 0);">Info</button> -->
+              <!-- <button ><i class="fa-solid fa-code"></i></button> -->
+              <button ><a href="https://airbnb-rabih96.herokuapp.com/" style="color:rgba(0, 0, 0, .4)"><i class="fa-solid fa-eye"></i></a></button>
+            </div>
+
+            <img src="./images/waterbnb.png" alt="" style="width: 296px; height: 220px; margin: 0; border-radius: 5px 5px 0 0;">
+          </div>
+          <div id="content">
+            <div style="background-color: rgba(0, 0, 0, .4); width: 296px; height: auto; border-radius: 0 0 5px 5px;">
+              <p id="test" style="font-size: 20px; padding: 8px; color: white;">Created to clone AirBnb, this platform concept allows Montrealers to rent boats and  benefit from our beautiful, yet infrequent, summer days.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- My Calendar App -->
+        <div style="margin: 15px;">
+          <div class="slidingCards" style="position: relative; padding: 0; height: 250px; width: 300px; min-width: 300px;">
+            <h4 style="font-size:24px">KO, a calender app</h4>
+            <div style="position: absolute; top: 0; right: 0;">
+              <!-- <button id="toggle" style="border-color: rgba(223, 175, 62, .40); background-color: rgba(223, 175, 62, 0);">Info</button> -->
+              <!-- <button ><i class="fa-solid fa-code"></i></button> -->
+              <!-- <button ><i class="fa-solid fa-eye"></i></button> -->
+            </div>
+
+            <img src="./images/estee-janssens-unsplash.jpg" alt="" style="width: 296px; height: 220px; margin: 0; border-radius: 5px 5px 0 0;">
+          </div>
+          <div id="content">
+            <div style="background-color: rgba(0, 0, 0, .4); width: 296px; height: auto; border-radius: 0 0 5px 5px;">
+              <p id="test" style="font-size: 20px; padding: 8px; color: white;">A new project is underway!
+                A unique pain point inspires this calendar app that will be designed for those who are both busy and unorganized.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row" style="margin: 0 auto;">
+
+        <div class="col-10 slidingCards" style="margin: 0 auto; border-radius: 20px; min-width: 200px; display: flex; align-items: center; justify-content: center; text-align: center;">
+          <h2 style="color:white">Websites</h2>
+        </div>
+          <div class="col-11 d-flex justify-content-center projectCards p-0" style="overflow:scroll; margin: 0 auto;">
+
+            <!-- TLA Productions -->
+            <div style="margin: 15px;">
+              <div class="slidingCards" style="position: relative; padding: 0; height: 250px; width: 300px; min-width: 300px;">
+                <h4 style="font-size:24px">TLA Productions</h4>
+                <div style="position: absolute; top: 0; right: 0;">
+                  <!-- <button id="toggle" style="border-color: rgba(223, 175, 62, .40); background-color: rgba(223, 175, 62, 0);">Info</button> -->
+                  <!-- <button ><i class="fa-solid fa-code"></i></button> -->
+                  <button><a href="https://jnyzroh.github.io/TLA_productions_website/" style="color:rgba(0, 0, 0, .4)"><i class="fa-solid fa-eye"></i></a></button>
+                </div>
+
+                <img src="./images/estee-janssens-unsplash.jpg" alt="" style="width: 296px; height: 220px; margin: 0; border-radius: 5px 5px 0 0;">
+              </div>
+              <div id="content">
+                <div style="background-color: rgba(0, 0, 0, .4); width: 296px; height: auto; border-radius: 0 0 5px 5px;">
+                  <p id="test" style="font-size: 20px; padding: 8px; color: white;">A website to promote event planning and decorating services for large group events, i.e. weddings, anniversaries, organization banquets and more.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin: 15px;">
+              <div class="slidingCards" style="position: relative; padding: 0; height: 250px; width: 300px; min-width: 300px; border-radius: 5px 5px 0 0;">
+                <h4 style="font-size:24px">Shared Movie Playlist</h4>
+                <div style="position: absolute; top: 0; right: 0;">
+                  <!-- <button id="toggle" style="border-color: rgba(223, 175, 62, .40); background-color: rgba(223, 175, 62, 0);">Info</button> -->
+                  <!-- <button ><i class="fa-solid fa-code"></i></button> -->
+                  <!-- <button ><i class="fa-solid fa-eye"></i></button> -->
+                </div>
+
+                <img src="./images/estee-janssens-unsplash.jpg" alt="" style="width: 296px; height: 220px; margin: 0; border-radius: 5px 5px 0 0;">
+              </div>
+              <div id="content">
+                <div style="background-color: rgba(0, 0, 0, .4); width: 296px; height: auto; border-radius: 0 0 5px 5px;">
+                  <p id="test" style="font-size: 20px; padding: 8px; color: white;">Description.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+    </div>
+
+        <div style="margin: 0 auto; padding:40px 0;">
+          <div class="col-10 slidingCards" style="margin: 0 auto; border-radius: 20px; min-width: 200px; display: flex; align-items: center; justify-content: center; text-align: center;">
+            <h2 style="color:white">Blog Posts</h2>
+          </div>
+          <div style="margin: 0 auto; width: 65%;">
+            <div id="projectList" class="row justify-content-center pt-3 mt-3" style="border: 2px solid rgba(188, 152, 116, 0.12); border-radius: 20px;">
+
+              <div class="col-12" style="min-width: 300px;">
+                <div class="d-flex">
+                  <ul class="d-flex justify-content-center flex-wrap contentOptionsList list-inline tabs-underlined d-flex align-items-center">
+
+                    <li class="p-0 mx-0 d-flex">
+                      <div class="d-flex">
+                        <a href="#" class="tab-underlined" style="font-size: 24px; width: 220px;">Title with Link</a>
+                        <p class="m-0" style="display: flex; align-items: center; justify-content: center; font-size:16px; width: 40px; text-align: center;">Date</p>
+                      </div>
+                      <div style="display: flex; align-items: center; width: 520px;">
+                        <p class="m-0 px-3" style="font-size: 20px;">Summary</p>
+                      </div>
+                    </li>
+                    <li class="p-2 mx-0 d-flex">
+                      <div class="d-flex">
+                        <a href="https://dev.to/jnyzroh/change-your-thinking-learn-to-code-44ie" class="tab-underlined" style="font-size: 24px; width: 220px;">Change your thinking. Learn to Code | Dev.to</a>
+                        <p class="m-0 text-center" style="display: flex; align-items: center; justify-content: center; font-size:16px; width: 40px;">March 2022</p>
+                      </div>
+                      <div style="display: flex; align-items: center; width: 520px;">
+                        <p class="m-0 p-3" style="font-size: 20px;">Three essential takeaways from my experience at Le Wagon's coding bootcamp that have changed my mentality as a developer</p>
+                      </div>
+                    </li>
+
+                    <!-- <li class="p-2 mx-0 d-flex">
+                      <div class="d-flex">
+                        <a href="https://dev.to/jnyzroh/change-your-thinking-learn-to-code-44ie" class="tab-underlined" style="font-size: 24px;">Change your thinking. Learn to Code | Dev.to<br></a>
+                        <p class="m-0 text-center" style="display: flex; align-items: center; font-size:16px; border: 1px solid black;">March 2022</p>
+                      </div>
+                      <div style="display: flex; align-items: center;">
+                        <p class="m-0 p-3" style="font-size: 20px; border: 1px solid black;">Three essential takeaways from my experience at Le Wagon's coding bootcamp that have changed my mentality as a developer</p>
+                      </div>
+                    </li> -->
+
+                    <!-- <li class="p-2 mx-0 d-flex">
+                      <div class="d-flex">
+                        <a href="#" class="tab-underlined" style="font-size: 24px;">Change your thinking. Learn to Code<br></a>
+                        <p class="m-0 text-center" style="display: flex; align-items: center; font-size:16px;">March 2022</p>
+                      </div>
+                      <div style="display: flex; align-items: center;">
+                        <p class="m-0 p-3" style="font-size: 20px;">Designed as an Airbnb clone, it enabled me to learn about user journeys, user stories, the Agile</p>
+                      </div>
+                    </li> -->
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      <!-- <div class="row justify-content-center pt-3 mt-3" style="border: 2px solid rgba(188, 152, 116, 0.12); border-radius: 20px;">
+        <div class="col-auto">
+          <h2>Recent Projects</h2>
+        </div>
+        <div class="col-6">
+          <div class="d-flex">
+            <ul class="list-inline tabs-underlined d-flex align-items-center">
+              <li class="p-0 mx-0">
+                <a href="#" class="tab-underlined">Find My Pet<br></a>
+                <p class="m-0 text-center" style="font-size: x-small;">March 2022</p>
+              </li>
+              <li class="p-0 mx-0">
+                <a href="#" class="tab-underlined">WaterBnb</a>
+                <p class="m-0 text-center" style="font-size: x-small;">March 2022</p>
+              </li>
+              <li class="p-0 mx-0">
+                <a href="#" class="tab-underlined">Upcoming...</a>
+                <p class="m-0 text-center" style="font-size: x-small;">Summer 2022</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+
+
+      <!-- <div id="info-box" class="row my-4 py-3 d-flex justify-content-center text-center" style="background-color: rgba(188, 152, 116, 0.06); width: auto; margin: 0 auto; border-radius: 30px;" >
+        <div>
+            <ul class="list-inline tabs-underlined mt-3 mb-0">
+              <p class="m-0 text-center">These three words seem to define my life:</p>
+              <li class="p-0 mx-2">Education</li>
+              <li class="p-0 mx-2">Compassion</li>
+              <li class="p-0 mx-2">Innovation</li>
+            </ul>
+        </div>
+        <p class="text-left" style="width:85%">I have a Masters in Educational Psychology
+          and career experience seeking to improve learning conditions for students.
+          I decided to learn to code because I was curious if I could create an app to solve
+          a particular problem that college students face as they struggle to manage their time.
+          My curiosity turned into a love for the thrill that coding brings -everytime you fix
+          a bug and you make your feature work.
+          <br>
+          <br>
+          Le Wagon bootcamp has given me the experience of creating a product from scratch and
+          the confidence to pursue what inspires me. For me, coding fulfills a particular side
+          of me that is not fulfilled in other roles - the side of me that desires to create
+          and innovate. Knowing this, I'm looking forward to my near future where my tech skills
+          can enhance the way I improve the lives of others.
+        </p>
+      </div>
+    </div> -->
+
+    <!-- Below: INTERACTIVE RESUME IDEA -->
+
+      <!-- <div style="width: 200px; height: auto; border:1px solid black">
+        <div class="d-flex flex-wrap justify-content-around">
+          <i class="fa fa-people-group"></i> <p>Desired to improve communities (undergrad)</p>
+        </div>
+        <div class="d-flex justify-content-around">
+          <i class="fa fa-landmark-flag"></i> <p>Supported advocacy work in education (COFI)</p>
+        </div>
+        <div class="d-flex justify-content-around">
+          <i class="fa-solid fa-book-open"></i> <p>Wanted a deeper foundation (Masters)</p>
+        </div>
+        <div class="d-flex justify-content-around">
+          <i class="fa fa-people-group"></i>  <p>Mentored college students (church)</p>
+        </div>
+        <div class="d-flex justify-content-around">
+          <i class="fa fa-lightbulb"></i> <p>Curious if I could develop an app</p>
+        </div>
+        <div class="d-flex justify-content-around">
+          <i class="fa fa-laptop"></i> <p>Wanted to teach myself</p>
+        </div>
+        <div class="d-flex justify-content-around">
+          <i class="fa-solid fa-certificate"></i> <p>Desired to make this official</p>
+        </div>
+      </div> -->
+
+      <!-- <div class="col-3 m-4 p-3">
         <h3 style="text-align:center; color:white">Education</h3>
 
         <div class="expSections" style="background-color: rgba(0, 0, 0, 0.4); margin: 0 auto; border-radius: 30px;" >
@@ -94,150 +344,22 @@
                 <li class="p-2 mx-2"><a style="color:#DFAE3E" href="#" target="_blank">COFI</i></a></li>
               </ul>
         </div>
-      </div>
-
-    </div>
-
-    <!-- <div class="vw-100 m-0 p-0 max-vw-100" style="height: 75vh; border-bottom:1px solid black;"> -->
-      <!-- <div class="container-fluid" style="height: auto; padding:20px;">
-        <div class="row no-gutters align-items-center">
-          <div class="col d-flex justify-content-end">
-            <img src="images/IMG-Janaya-January2022.jpg" alt="image of Janaya" style="height:250px; border-radius: 30px;">
-          </div>
-          <div class="col d-flex justify-content-start">
-            <div class="text-center align-center" >
-              <h1 style="max-width: 200px;">Janaya Gripper</h1>
-              <ul class="list-inline m-0" style="color:brown">
-                <li class="p-0 mx-2"><a style="color:brown" href="https://www.linkedin.com/in/janayagripper/" target="_blank"><i class="fab fa-xl fa-linkedin"></i></a></li>
-                <li class="p-0 mx-2"><a style="color:brown" href="https://github.com/JnyZroh" target="_blank"><i class="fab fa-xl fa-github-square"></i></a></li>
-                <li class="p-0 mx-2 brown"><a style="color:brown" href="https://dev.to/jnyzroh" target="_blank"><i class="fab fa-xl fa-brands fa-dev"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div> -->
 
-      <!-- <div class="container"> -->
-        <div style="margin: 0 auto; width: 65%;">
-
-          <div style="margin: 0 auto; width: 65%;">
-            <div id="projectList" class="row justify-content-center pt-3 mt-3" style="border: 2px solid rgba(188, 152, 116, 0.12); border-radius: 20px;">
-              <div class="col-auto">
-                <h2>Projects</h2>
-              </div>
-              <div class="col-10">
-                <div class="d-flex">
-                  <ul class="d-flex justify-content-center flex-wrap contentOptionsList list-inline tabs-underlined d-flex align-items-center">
-                    <li class="p-2 mx-0">
-                      <a href="#" class="tab-underlined">Find My Pet<br></a>
-                      <p class="m-0 text-center" style="font-size: x-small;">March 2022</p>
-                    </li>
-                    <li class="p-2 mx-0">
-                      <a href="#" class="tab-underlined">WaterBnb</a>
-                      <p class="m-0 text-center" style="font-size: x-small;">March 2022</p>
-                    </li>
-                    <li class="p-2 mx-0">
-                      <a href="#" class="tab-underlined">Websites</a>
-                      <p class="m-0 text-center" style="font-size: x-small;">May 2022</p>
-                    </li>
-                    <li class="p-2 mx-0">
-                      <a href="#" class="tab-underlined">Ambitious Ones</a>
-                      <p class="m-0 text-center" style="font-size: x-small;">Summer 2022</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-      <!-- <div class="row justify-content-center pt-3 mt-3" style="border: 2px solid rgba(188, 152, 116, 0.12); border-radius: 20px;">
-        <div class="col-auto">
-          <h2>Recent Projects</h2>
-        </div>
-        <div class="col-6">
-          <div class="d-flex">
-            <ul class="list-inline tabs-underlined d-flex align-items-center">
-              <li class="p-0 mx-0">
-                <a href="#" class="tab-underlined">Find My Pet<br></a>
-                <p class="m-0 text-center" style="font-size: x-small;">March 2022</p>
-              </li>
-              <li class="p-0 mx-0">
-                <a href="#" class="tab-underlined">WaterBnb</a>
-                <p class="m-0 text-center" style="font-size: x-small;">March 2022</p>
-              </li>
-              <li class="p-0 mx-0">
-                <a href="#" class="tab-underlined">Upcoming...</a>
-                <p class="m-0 text-center" style="font-size: x-small;">Summer 2022</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div> -->
-
-      <div id="options" class="row justify-content-center mt-3 py-2 align-items-center" style="border: 2px solid rgba(188, 152, 116, 0.12); border-radius: 20px;">
-        <div class="col-2">
-          <h2 class="text-right">Who I am</h2>
-        </div>
-        <div class="col-6 text-center">
-          <div class="d-flex justify-content-start">
-            <ul class="list-inline tabs-underlined">
-              <li class="p-0 mx-0">
-                <a href="#" class="tab-underlined active">Read a short bio</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div id="info-box" class="row my-4 py-3 d-flex justify-content-center text-center" style="background-color: rgba(188, 152, 116, 0.06); width: auto; margin: 0 auto; border-radius: 30px;" >
-        <div>
-            <ul class="list-inline tabs-underlined mt-3 mb-0">
-              <p class="m-0 text-center">These three words seem to define my life:</p>
-              <li class="p-0 mx-2">Education</li>
-              <li class="p-0 mx-2">Compassion</li>
-              <li class="p-0 mx-2">Innovation</li>
-            </ul>
-        </div>
-        <p class="text-left" style="width:85%">I have a Masters in Educational Psychology
-          and career experience seeking to improve learning conditions for students.
-          I decided to learn to code because I was curious if I could create an app to solve
-          a particular problem that college students face as they struggle to manage their time.
-          My curiosity turned into a love for the thrill that coding brings -everytime you fix
-          a bug and you make your feature work.
-          <br>
-          <br>
-          Le Wagon bootcamp has given me the experience of creating a product from scratch and
-          the confidence to pursue what inspires me. For me, coding fulfills a particular side
-          of me that is not fulfilled in other roles - the side of me that desires to create
-          and innovate. Knowing this, I'm looking forward to my near future where my tech skills
-          can enhance the way I improve the lives of others.
-        </p>
-      </div>
-
-      <!-- <div style="width: 200px; height: auto; border:1px solid black">
-        <div class="d-flex flex-wrap justify-content-around">
-          <i class="fa fa-people-group"></i> <p>Desired to improve communities (undergrad)</p>
-        </div>
-        <div class="d-flex justify-content-around">
-          <i class="fa fa-landmark-flag"></i> <p>Supported advocacy work in education (COFI)</p>
-        </div>
-        <div class="d-flex justify-content-around">
-          <i class="fa-solid fa-book-open"></i> <p>Wanted a deeper foundation (Masters)</p>
-        </div>
-        <div class="d-flex justify-content-around">
-          <i class="fa fa-people-group"></i>  <p>Mentored college students (church)</p>
-        </div>
-        <div class="d-flex justify-content-around">
-          <i class="fa fa-lightbulb"></i> <p>Curious if I could develop an app</p>
-        </div>
-        <div class="d-flex justify-content-around">
-          <i class="fa fa-laptop"></i> <p>Wanted to teach myself</p>
-        </div>
-        <div class="d-flex justify-content-around">
-          <i class="fa-solid fa-certificate"></i> <p>Desired to make this official</p>
-        </div>
-      </div> -->
-    </div>
+    <!-- <div class="col-5 m-4 p-3" style="display:none; color: #F0F0F0; background-color: rgba(0, 0, 0, 0.4); margin: 0 auto; border-radius: 30px;">
+      <h3>Short bio</h3>
+      <p>
+        Graduated from <span>Web Development Bootcamp</span>, March 2022;
+        Previously, I <span>worked to support</span> users of an app at colleges and universities in Montreal
+        During the same period, I worked with a <span>group of college students</span> and wondered if I could develop an app to help them with time management.
+        These two positions catalyzed a curiosity that became an interest, and is now a set of skills.
+        <br>
+        <br>
+        My academic background is in <span>Education and Human Development</span> and I have about 4 years of experience in <span>Project Management</span>,
+        coordinating projects that improve K-12 schools and advocate for families.
+      </p>
+      <h4>View my Resume</h4>
+      <h4>Click <span>links</span> above for an interactive resume</h4>
+    </div> -->
   </body>
 </html>
