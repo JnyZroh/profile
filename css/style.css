@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap');
 
-@import url("components/fixedbanner.css");
+@import url("components/new_style.css");
 @import url("components/responsive.css");
 
 @import url("components/list.css");
@@ -12,13 +12,13 @@
 
 
 /* BANNER SECTION */
-/* Component stylesheet: banner.css */
+/* Component stylesheet:  */
 
 /* PROJECTS SECTION */
-/* Component stylesheet: card.css */
+/* Component stylesheet:  */
 
 /* BLOG POSTS */
-/* Component stylesheet: list.css */
+/* Component stylesheet:  */
 
 /* GENERAL STYLING */
 * {
