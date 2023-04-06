@@ -1,9 +1,13 @@
 #projects {
-  background-image: linear-gradient(rgba(223, 175, 62, 1.0), rgba(223, 175, 62, 0.8),
-  rgba(223, 175, 62, 0.6), rgba(223, 175, 62, 0.45),rgba(223, 175, 62, 0.1), rgba(223, 175, 62, 0.01));
+  /* background-image: linear-gradient(rgba(29, 53, 36, 1.0), rgba(29, 53, 36, 0.8),
+  rgba(29, 53, 36, 0.6), rgba(29, 53, 36, 0.45),rgba(29, 53, 36, 0.1), rgba(29, 53, 36, 0.01)); */
+  /* background-image: linear-gradient(rgba(223, 175, 62, 1.0), rgba(223, 175, 62, 0.8),
+  rgba(223, 175, 62, 0.6), rgba(223, 175, 62, 0.45),rgba(223, 175, 62, 0.1), rgba(223, 175, 62, 0.01)); */
+  background-color: rgb(29, 53, 36);
   height: auto;
   padding:40px 0;
   position:relative;
+  color: #EEE0CB;
 }
 
 .slidingCardsContainer {
@@ -18,28 +22,23 @@
   text-align: center;
 }
 
-.slidingCardsContainer h2 {
-  color: white;
-  font-size: 32px;
-
-}
-
-.projectCards {
-  overflow:scroll;
+.scrollable {
+  /* height: 100%; */
+  overflow: hidden scroll;
   overflow-y: hidden;
   margin: 0 auto;
-  justify-content: start;
+  /* justify-content: start; */
 }
 .eachCard {
   margin: 20px;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
-.projectCards::-webkit-scrollbar {
+.scrollable::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.projectCards {
+.scrollable {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -57,8 +56,10 @@
 }
 
 button {
-  border-color: rgba(223, 175, 62, .40);
+  /* border-color: rgba(223, 175, 62, .40); */
   background-color: rgba(223, 175, 62, 0);
+  max-height: 30px;
+  border: none;
 }
 
 

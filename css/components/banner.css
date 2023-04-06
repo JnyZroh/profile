@@ -1,34 +1,5 @@
-/* .banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-} */
 
-/* .banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-} */
-
-/* .banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-} */
-
-/* .bannerImage {
-  background-position: center;
-  background-size: cover;
-} */
-
-.bannerImage {
-  background-color: #DFAE3E;
-  background-image: url("../../images/wall-mona-eendra-unsplash.jpg");
-  background-position: bottom;
-  background-size: cover;
+.halfPage {
   position: relative;
   height: 100vh;
 }
@@ -36,48 +7,14 @@
 /* Image and links inside banner */
 
 .profileBannerOuterDiv {
-position: relative;
-height: auto;
-padding:20px;
-min-width:500px
+/* position: relative; */
+/* height: auto; */
+/* padding:20px; */
+min-width:500px;
 }
 
-.profileBannerDiv {
-flex-direction: column;
-width:250px;
-margin: 0 auto;
-}
 
-.profileImageDiv {
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-}
 
-img.profile {
-height:300px;
-border-radius: 50%;
-}
-
-#profileLinksList {
-list-style-type: none;
-height: 65%;
-padding:15px 20px;
-margin: 25px;
-background-color: rgba(0, 0, 0, 0.4);
-border-radius: 20px;
-}
-#profileLinksList li {
-padding: 15px 0;
-}
-
-#profileLinksList a {
-color: #DFAE3E;
-}
-
-#profileLinksList a:hover {
-color: white;
-}
 
 #pageLinks {
 width:100%;

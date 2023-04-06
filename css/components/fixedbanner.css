@@ -1,0 +1,77 @@
+
+/* Banner section */
+.fixed {
+  width: 50%;
+  height: 100vh;
+  position: fixed;
+}
+
+img.profile {
+  max-height:300px;
+  border-radius: 10%;
+}
+
+#profileLinksList {
+  list-style-type: none;
+  padding:15px 20px;
+  margin: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  }
+
+  /* Mini bio */
+
+  .textBox {
+    width: 100%;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+
+  .genLinksList {
+    list-style-type: none;
+    width: fit-content;
+  }
+
+  #profileLinksList li {
+    padding: 15px 0;
+  }
+
+  #profileLinksList a, .genLinksList a {
+    color: #DFAE3E;
+  }
+
+  #profileLinksList a:hover, .genLinksList a:hover {
+    color: white;
+  }
+
+
+/* SKILLS */
+
+.resumeDiv {
+  /* height: 75vh; */
+  text-align: center;
+}
+
+
+p.techTools {
+  line-height: 400%;
+  text-align: center;
+}
+.techTools a {
+  padding: 5px;
+}
+
+
+/* PROJECTS */
+.projectCard {
+  max-width: 400px;
+  border: solid 1px #EEE0CB;
+  border-radius: 10px;
+  height:auto;
+  width:90%;
+  align-content: center;
+  margin: 10px auto;
+  box-shadow: 2px 2px 3px rgba(238, 224, 203, 0.3);
+}

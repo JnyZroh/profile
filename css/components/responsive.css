@@ -1,0 +1,145 @@
+#intro {
+  flex-direction: row;
+}
+section {
+  width: 50%;
+  height: 100vh;
+}
+.switch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  width: 500px ;
+}
+#contact {
+  width: 75%;
+}
+
+/* media queries */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  /* .container {
+    width: 700px;
+  } */
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  /* .container {
+    min-width: 500px;
+  } */
+
+}
+
+@media (max-width: 540px) {
+
+  #intro {
+    flex-direction: column;
+  }
+
+  .fixed {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .section {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .switch {
+    flex-direction: column;
+    width: auto;
+  }
+
+  #profileLinksList {
+    height: 65%;
+    padding:10px 15px;
+    margin: 20px;
+  }
+
+  .blogSection {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blogPost {
+    padding: 15px;
+  }
+  #contact {
+    padding: 0 20px;
+  }
+  #contact p {
+    padding: 10px 0px;
+  }
+
+  /* PROJECT CARDS SCROLL STYLING */
+
+  /* width */
+  .scrollable::-webkit-scrollbar {
+    height: 10px;
+    display: unset;
+  }
+
+  /* Track */
+  .scrollable::-webkit-scrollbar-track {
+    /* display: none;*/
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: hsla(42, 72%, 56%, 0.6);
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    /* background: #555; */
+    background: hsla(42, 72%, 56%, 1);
+  }
+
+}
+  /* BLOG SECTION */
+
+  /* .contentOptionsList {
+    width: 300px;
+  } */
+
+  /* .contentOptionsList li {
+    flex-direction: column;
+    margin-bottom: 8px;
+  } */
+
+  /* .title.label,
+  .title {
+  justify-content: space-between;
+  padding-right: 16px;
+  } */
+
+  /* .title.label a,
+  .title a {
+    font-size: 20px;
+    width: 150px; */
+  /* } */
+
+  /* .title.label p,
+  .title p {
+    font-size: 16px;
+    width: 30px;
+  } */
+
+  /* .summary.label,
+  .summary {
+    width: 250px;
+  } */
+
+  /* .summary.label p,
+  .summary p {
+    font-size: 16px;
+    padding: 0;
+    text-align: justify;
+  }
+
+} */

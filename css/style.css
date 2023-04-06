@@ -1,34 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap');
+
+@import url("components/fixedbanner.css");
+@import url("components/responsive.css");
+
 @import url("components/list.css");
 @import url("components/banner.css");
 @import url("components/card.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-/* GENERAL STYLING */
-* {
-  margin: 0;
-}
-
-body {
-  margin: 0;
-  background-color: #F6F1EB;
-  color:rgb(47, 26, 0);
-  font-family: 'Katibeh', cursive;
-  line-height: 125%;
-}
-
-h2 {
-  font-size: 20px;
-  /* border: 1px solid black; */
-  /* padding: 8px; */
-  /* padding-top: 0; */
-  padding-bottom: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, .4) ;
-}
 
 /* BANNER SECTION */
 /* Component stylesheet: banner.css */
@@ -39,115 +20,29 @@ h2 {
 /* BLOG POSTS */
 /* Component stylesheet: list.css */
 
-/* media queries */
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  /* .container {
-    width: 700px;
-  } */
+/* GENERAL STYLING */
+* {
+  margin: 0;
 }
 
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  /* .container {
-    min-width: 500px;
-  } */
+body {
+  color: #EEE0CB;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #1D3524;
 }
 
-@media (max-width: 540px) {
+.component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
 
-  /* BANNER SECTION */
-  .profileBannerOuterDiv {
-    min-width:250px;
-  }
-
-  img.profile {
-    height:220px;
-    /* border-radius: 50%; */
-  }
-
-  #profileLinksList {
-    height: 65%;
-    padding:10px 15px;
-    margin: 20px;
-  }
-
-  /* moves the photo link; stops colliding with page links */
-  #unsplash {
-    bottom: -50px;
-  }
-
-  /* PROJECTS SECTION */
-/*
-  .projectCards {
-    justify-content: start;
-  } */
-
-  /* width */
-  .projectCards::-webkit-scrollbar {
-    height: 10px;
-    display: unset;
-  }
-
-  /* Track */
-  .projectCards::-webkit-scrollbar-track {
-    /* display: none;*/
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: hsla(42, 72%, 56%, 0.6);
-    border-radius: 10px;
-  }
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    /* background: #555; */
-    background: hsla(42, 72%, 56%, 1);
-  }
-
-
-  /* BLOG SECTION */
-
-  .contentOptionsList {
-    width: 300px;
-  }
-
-  .contentOptionsList li {
-    flex-direction: column;
-    margin-bottom: 8px;
-  }
-
-  .title.label,
-  .title {
-  justify-content: space-between;
-  padding-right: 16px;
-  }
-
-  .title.label a,
-  .title a {
-    font-size: 20px;
-    width: 150px;
-  }
-
-  .title.label p,
-  .title p {
-    font-size: 16px;
-    width: 30px;
-  }
-
-  .summary.label,
-  .summary {
-    width: 250px;
-  }
-
-  .summary.label p,
-  .summary p {
-    font-size: 16px;
-    padding: 0;
-    text-align: justify;
-  }
-
+h2 {
+  margin: 15px auto;
+  padding: 5px 12px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .4) ;
+  font-size: 28px;
+  width: fit-content;
 }
