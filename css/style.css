@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap');
 
+@import url("components/style.css");
+
 @import url("components/new_style.css");
 @import url("components/responsive.css");
 
