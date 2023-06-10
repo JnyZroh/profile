@@ -30,7 +30,8 @@
 body {
   color: #EEE0CB;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #1D3524;
+  /* background-color: #1D3524; */
+  background-color: #16271B;
 }
 
 .component {
