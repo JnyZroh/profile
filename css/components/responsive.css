@@ -39,6 +39,15 @@ section {
     flex-direction: column;
   }
 
+  #index {
+    text-align: left;
+  }
+
+  #indexContainer {
+    /* align-items: ""; */
+    text-align: left;
+  }
+
   .fixed {
     position: relative;
     display: flex;

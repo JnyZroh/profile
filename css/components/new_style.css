@@ -21,6 +21,15 @@ img.profile {
 
   /* Mini bio */
 
+  #intro, #index {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  #index {
+    text-align: right;
+  }
+
   .textBox {
     width: 100%;
     border-radius: 20px;
@@ -74,4 +83,38 @@ p.techTools {
   align-content: center;
   margin: 10px auto;
   box-shadow: 2px 2px 3px rgba(238, 224, 203, 0.3);
+}
+
+.projectIcons {
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+p.cardDesc {
+  font-size: 14px;
+  padding: 0px 15px;
+  background-color: rgba(238, 224, 203, 0.7);
+  /* background-color: #EEE0CB; */
+  color: rgb(29, 53, 36);
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.projectSkill, .projectLink{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 0 40px; */
+}
+.projectSkills, .projectLinks{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10%;
+  column-gap: 3%;
+  padding: 0 0 5px 0;
+}
+
+i {
+  color: #DFAE3E;
 }

@@ -22,8 +22,8 @@
           <li><a href="https://dev.to/jnyzroh" target="_blank"><i class="fab fa-2xl fa-brands fa-dev"></i></a></li>
         </ul>
       </div>
-      <h1 style="font-size: 32px;">Janaya Gripper</h1>
-      <div id="intro" class="d-flex justify-content-center py-4"  style="text-align: center; align-items: center;">
+      <h1 style="font-size: 32px; padding: 10px;">Janaya Gripper</h1>
+      <div id="intro" class="d-flex justify-content-center py-4"  style="text-align: left;">
         <p class="textBox">
           Developer-in-training, currently learning Django<br>
           Web Development Bootcamp Graduate (Le Wagon)<br>
@@ -34,11 +34,15 @@
           Curious, Inquisitive, Community-focused<br>
           Christian, Wife & Mother, K-Drama Lover<br>
         </p>
-        <ul class="genLinksList textBox">
-          <li><a href="#skills" target="_blank">Skills</a></li>
-          <li><a href="#experience" target="_blank">Projects</a></li>
-          <li><a href="#contact" target="_blank">More about me</a></li>
-        </ul>
+        <div id="indexContainer" style="position: relative; display: flex; flex-direction: column; justify-content: flex-end; width: 175px; height: auto; padding: 0;">
+          <div style="position: absolute; top:25px; right: 25px; width: 50px; height: 50px; margin: 0 auto;"></div>
+            <!-- <i class="fa-solid fa-circle-arrow-down fa-beat fa-2xl"></i></div> -->
+          <ul class="genLinksList" id="index">
+            <li><a href="#skills" target="_blank">CV & Skills</a></li>
+            <li><a href="#experience" target="_blank">Projects</a></li>
+            <li><a href="#contact" target="_blank">More About Me</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -70,7 +74,8 @@
               <br>
               <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
               <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-              <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
+              <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg" alt="docker" width="40" height="40"/> </a>
+              <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="aws" width="40" height="40"/> </a>
             </p>
           </div>
 
@@ -85,33 +90,45 @@
         <div class="scrollable" style="overflow: hidden scroll; height:90vh">
 
             <!-- GoodVet -->
-            <!-- <div class="d-flex projectCard">
-                <div style="text-align: center; height: 150px;"> -->
-                  <!-- add the image: <img style="max-height: 100px;" src="./images/TLA-Productions.png" alt="" >
-                </div>
-                <div>
-                  <h4 style="padding:15px; width: 100%; font-size: 18px; text-align: center;">GoodVet / BonVet (in progress)</h4>
-                  <div class="px-2">
-                    <p style="text-align: center; font-size: 14px">
-                      Django API and React webapp to provide cost comparison of veterinarians for pet parents.
-                    </p>
+            <div class="projectCard">
+              <div style="display:flex; margin: 10px;">
+                <img style="max-height: 100px;" src="./images/goodvet_Screenshot.png" alt="" >
+                <div class="projectIcons">
+                  <h4 style="font-size: 18px; margin: auto;">GoodVet / BonVet <em>(in progress)</em></h4>
+                  <div class="projectSkills">
+                    <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="20" height="20"/> </a>
+                    <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="20" height="20"/> </a>
+                    <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg" alt="docker" width="20" height="20"/> </a>
+                    <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="aws" width="20" height="20"/> </a>
+                  </div>
+                  <div class="projectLinks">
+                    <a href="https://www.figma.com/proto/gTW83dRJlcFxN3GHhCwnD1/Bonvet?type=design&node-id=1-35&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=143%3A703&show-proto-sidebar=1" title="View draft design"><i class="fa-solid fa-pen"></i></a>
+                    <!-- <a href="https://jnyzroh.github.io/TLA_productions_website/" title="View website"><i class="fa-solid fa-eye"></i></a> -->
                   </div>
                 </div>
-            </div> -->
+              </div>
+              <p class="cardDesc">
+                Django API and React webapp to provide cost comparison of veterinarians for pet parents.
+              </p>
+            </div>
 
             <!-- TLA Productions -->
             <div class="projectCard">
               <div style="display:flex; margin: 10px;">
                 <img style="max-height: 100px;" src="./images/TLA-Productions.png" alt="" >
-                <div style="padding:15px; display: flex; flex-direction: column; justify-content: space-between;">
+                <div class="projectIcons">
                   <h4 style="font-size: 18px; margin: auto;">TLA Planning & Productions</h4>
-                  <div class="d-flex" style="align-items: flex-end;">
-                    <button><a href="https://www.figma.com/file/VfQR6rhn4igf2QGXmljPHb/Untitled?node-id=0%3A1&t=fHNXID4qp981MNvj-1" title="View NEW design"><i class="fa-solid fa-pen"></i></a></button>
-                    <button><a href="https://jnyzroh.github.io/TLA_productions_website/" title="View website (draft)"><i class="fa-solid fa-eye"></i></a></button>
+                  <div class="projectSkills">
+                    <div><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="20" height="20"/> </a></div>
+                    <div><a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="20" height="20"/> </a></div>
+                  </div>
+                  <div class="projectLinks">
+                    <a href="https://www.figma.com/file/VfQR6rhn4igf2QGXmljPHb/Untitled?node-id=0%3A1&t=fHNXID4qp981MNvj-1" title="View NEW design"><i class="fa-solid fa-pen"></i></a>
+                    <a href="https://jnyzroh.github.io/TLA_productions_website/" title="View website (draft)"><i class="fa-solid fa-eye"></i></a>
                   </div>
                 </div>
               </div>
-              <p style="font-size: 14px; padding: 0px 15px;">
+              <p class="cardDesc">
                 Small business focused in organizing, decorating, and directing celebrations, while staying under budget.
               </p>
             </div>
@@ -120,16 +137,21 @@
             <div class="projectCard">
               <div style="display:flex; margin: 10px;">
                 <img style="max-height: 100px;" src="./images/findmypet-edited.png" alt="" >
-                <div style="padding:15px; display: flex; flex-direction: column; justify-content: space-between;">
+                <div class="projectIcons">
                   <h4 style="font-size: 18px; margin: auto;">FindMyPet <br><em>Le Wagon Final Project</em></h4>
-                  <div class="d-flex" style="align-items: flex-end;">
-                    <button><a href="https://www.figma.com/file/yu43LGHRWU6cHOKK8wg1Ql/FindMyPet?node-id=0%3A1&t=OyQC7a7KP5ap2ZPK-1" title="View Figma"><i class="fa-solid fa-pen"></i></a></button>
-                    <button><a href="https://findmypet.onrender.com/" title="View website"><i class="fa-solid fa-eye"></i></a></button>
+                  <div class="projectSkills">
+                    <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="20" height="20"/> </a>
+                    <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="20" height="20"/> </a>
+                    <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="20" height="20"/> </a>
+                  </div>
+                  <div class="projectLinks">
+                    <a href="https://www.figma.com/file/yu43LGHRWU6cHOKK8wg1Ql/FindMyPet?node-id=0%3A1&t=OyQC7a7KP5ap2ZPK-1" title="View Figma"><i class="fa-solid fa-pen"></i></a>
+                    <a href="https://findmypet.onrender.com/" title="View website"><i class="fa-solid fa-eye"></i></a>
                   </div>
                 </div>
               </div>
-              <p style="font-size: 14px; padding: 0px 15px;">
-                Fullstack Rails app, designed to mobilize a pet-loving community to reunite owners with their lost pets.
+              <p class="cardDesc">
+                Fullstack Rails app, designed to mobilize a pet-loving community to reunite families with their lost pets.
               </p>
             </div>
 
@@ -154,14 +176,17 @@
             <div class="projectCard">
               <div style="display:flex; margin: 10px;">
                 <img style="max-height: 100px;" src="./images/Figma_CalApp.png" alt="" >
-                <div style="padding:15px; display: flex; flex-direction: column; justify-content: space-between;">
+                <div class="projectIcons">
                   <h4 style="font-size: 18px; margin: auto;">Calendar App Design<br><em>Personal Project</em></h4>
-                  <div class="d-flex" style="align-items: flex-end;">
-                    <button><a href="https://www.figma.com/file/0XJmfsUoRD65WTyq0YA3Kb/KO-Calendar-App?node-id=0%3A1&t=gWtvQkuByOjMFKoR-1" title="View design"><i class="fa-solid fa-pen"></i></a></button>
+                  <div class="projectSkills">
+                    <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="20" height="20"/> </a>
+                  </div>
+                  <div class="projectLinks">
+                    <a href="https://www.figma.com/file/0XJmfsUoRD65WTyq0YA3Kb/KO-Calendar-App?node-id=0%3A1&t=gWtvQkuByOjMFKoR-1" title="View design"><i class="fa-solid fa-pen"></i></a>
                   </div>
                 </div>
               </div>
-              <p style="font-size: 14px; padding: 0px 15px;">
+              <p class="cardDesc">
                 A design for an automated calendar/scheduling/to-do app. Project to be continued.
               </p>
             </div>
