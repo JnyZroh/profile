@@ -37,15 +37,19 @@ section {
 
   #intro {
     flex-direction: column;
+    width: 100vw;
   }
 
   #index {
-    text-align: left;
+    text-align: center;
+    margin: 0 auto;
   }
 
   #indexContainer {
     /* align-items: ""; */
-    text-align: left;
+    /* text-align: left; */
+    /* width: 100%; */
+    margin: 30px auto;
   }
 
   .fixed {
@@ -69,7 +73,12 @@ section {
     margin: 20px;
   }
 
+  #genLinksList {
+    width: 100%;
+  }
+
   .blogSection {
+    width: 100%;
     flex-direction: column;
     align-items: center;
   }
@@ -81,6 +90,12 @@ section {
   }
   #contact p {
     padding: 10px 0px;
+  }
+
+  /* PROJECT SECTION */
+
+  .divider {
+    width: 100vw;
   }
 
   /* PROJECT CARDS SCROLL STYLING */

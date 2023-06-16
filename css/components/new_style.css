@@ -1,5 +1,8 @@
 
 /* Banner section */
+.hidden {
+  display: none;
+}
 .fixed {
   width: 50%;
   height: 100vh;
@@ -23,11 +26,16 @@ img.profile {
 
   #intro, #index {
     font-size: 18px;
-    padding: 0;
+    padding: 0 15px;
+    /* style="text-align: left;" */
   }
 
   #index {
     text-align: right;
+  }
+
+  #introArrow {
+    display: show;
   }
 
   .textBox {
@@ -35,7 +43,7 @@ img.profile {
     border-radius: 20px;
     font-size: 18px;
     margin: 0 auto;
-    padding: 15px 0;
+    /* padding: 15px 0; */
   }
 
   .genLinksList {
@@ -74,6 +82,18 @@ p.techTools {
 
 
 /* PROJECTS */
+
+.divider {
+  width: 450px;
+  margin: 0 auto;
+  border-bottom: 3px solid rgba(238, 224, 203, 0.3);
+}
+#firstProject {
+  margin-top: 20px;
+}
+#lastProject {
+  margin-bottom: 20px;
+}
 .projectCard {
   max-width: 400px;
   border: solid 1px #EEE0CB;
@@ -117,4 +137,12 @@ p.cardDesc {
 
 i {
   color: #DFAE3E;
+}
+
+/* blog */
+
+.blogSection {
+  max-width:65%;
+  align-content: flex-start;
+  margin: 0 auto;
 }
