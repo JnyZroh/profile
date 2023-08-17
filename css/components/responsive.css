@@ -40,10 +40,14 @@ section {
     width: 100vw;
   }
 
-  #index {
+  /* #index1 {
     text-align: center;
     margin: 0 auto;
   }
+  #index {
+    text-align: center;
+    margin: 0 auto;
+  } */
 
   #indexContainer {
     /* align-items: ""; */
@@ -67,18 +71,33 @@ section {
     width: auto;
   }
 
-  #profileLinksList {
-    height: 65%;
-    padding:10px 15px;
+  #linksList {
+    /* height: 65%; */
+    padding: 10px 15px;
     margin: 20px;
   }
+
+  /* .footerLinks {
+    padding: ;
+  } */
 
   #genLinksList {
     width: 100%;
   }
 
+  /* skills */
+  .resumeDiv img {
+    height: 200px;
+    margin: 0;
+  }
+
+  /* blog */
+  .longBio {
+    width: 80%;
+  }
+
   .blogSection {
-    width: 100%;
+    /* width: 100%; */
     flex-direction: column;
     align-items: center;
   }
@@ -95,7 +114,7 @@ section {
   /* PROJECT SECTION */
 
   .divider {
-    width: 100vw;
+    width: 90vw;
   }
 
   /* PROJECT CARDS SCROLL STYLING */

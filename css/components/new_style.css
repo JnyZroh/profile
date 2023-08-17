@@ -14,9 +14,9 @@ img.profile {
   border-radius: 10%;
 }
 
-#profileLinksList {
+#linksList {
   list-style-type: none;
-  padding:15px 20px;
+  padding: 5px 20px;
   margin: 25px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 20px;
@@ -30,8 +30,12 @@ img.profile {
     /* style="text-align: left;" */
   }
 
-  #index {
+  /* #index {
     text-align: right;
+  } */
+  #index1 {
+    text-align: center;
+    /* margin: 0 auto; */
   }
 
   #introArrow {
@@ -51,15 +55,15 @@ img.profile {
     width: fit-content;
   }
 
-  #profileLinksList li {
+  #linksList li {
     padding: 15px 0;
   }
 
-  #profileLinksList a, .genLinksList a {
+  #linksList a, .genLinksList a {
     color: #DFAE3E;
   }
 
-  #profileLinksList a:hover, .genLinksList a:hover {
+  #linksList a:hover, .genLinksList a:hover {
     color: white;
   }
 
@@ -71,10 +75,15 @@ img.profile {
   text-align: center;
 }
 
+.resumeDiv img {
+  max-height: 300px;
+  margin-top: 30px;
+}
 
 p.techTools {
   line-height: 400%;
   text-align: center;
+  margin: auto;
 }
 .techTools a {
   padding: 5px;
@@ -84,7 +93,7 @@ p.techTools {
 /* PROJECTS */
 
 .divider {
-  width: 450px;
+  width: 500px;
   margin: 0 auto;
   border-bottom: 3px solid rgba(238, 224, 203, 0.3);
 }
@@ -140,9 +149,21 @@ i {
 }
 
 /* blog */
-
+.longBio {
+  /* width: 60%; */
+  max-width: 500px;
+}
 .blogSection {
-  max-width:65%;
-  align-content: flex-start;
+  /* width:65%; */
+  max-width: 500px;
+  align-content:center;
+  /* align-content: flex-start; */
   margin: 0 auto;
+  flex-direction: column;
+}
+
+.footerLinks {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
 }
