@@ -130,16 +130,16 @@ p.cardDesc {
   text-align: center;
 }
 
-.projectSkill, .projectLink{
+/* .projectSkill, .projectLink{
   width: 30%;
   display: flex;
   justify-content: space-around;
-  /* padding: 0 40px; */
-}
+  /* padding: 0 40px;
+} */
 .projectSkills, .projectLinks{
   width: 100%;
   display: grid;
-  grid-template-columns: 10% 10% 10% 10%;
+  grid-template-columns: 12% 12% 12% 12%;
   column-gap: 3%;
   padding: 0 0 5px 0;
 }
