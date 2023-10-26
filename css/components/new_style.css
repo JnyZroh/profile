@@ -53,6 +53,7 @@ img.profile {
   .genLinksList {
     list-style-type: none;
     width: fit-content;
+    padding: 0;
   }
 
   #linksList li {
@@ -89,6 +90,9 @@ p.techTools {
   padding: 5px;
 }
 
+ul.strengths {
+  padding: 0;
+}
 
 /* PROJECTS */
 

@@ -35,6 +35,10 @@ section {
 
 @media (max-width: 540px) {
 
+  h4 {
+    padding: 10px 0;
+  }
+
   #intro {
     flex-direction: column;
     width: 100vw;
